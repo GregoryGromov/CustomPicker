@@ -19,7 +19,7 @@ public struct ColorPickerUI: View {
     @Environment(\.dismiss) var dismiss
     
 
-    var body: some View {
+    public var body: some View {
         NavigationView {
             VStack {
                 
