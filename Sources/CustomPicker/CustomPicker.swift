@@ -3,7 +3,7 @@ import SwiftUI
 // TODO: сделать нормальный UX
 
 @available(iOS 15.0, *)
-struct ColorPickerUI: View {
+public struct ColorPickerUI: View {
     let  radius: CGFloat = 100
     var diameter: CGFloat {
         radius * 2
