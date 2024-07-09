@@ -17,7 +17,10 @@ public struct ColorPickerUI: View {
     @Binding var bgColor: Color
     
     @Environment(\.dismiss) var dismiss
-    
+
+    public init(bgColor: Binding<Color>) {
+        self._bgColor = bgColor
+    }
 
     public var body: some View {
         NavigationView {
